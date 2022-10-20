@@ -11,19 +11,41 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
+      <section class="card" id="remember-section">
+        <h2><b>Things to keep in mind throughout this work</b></h2>
+        <ul>
+          <li>Remeber to keep a growth mindset: When you're stuck, try using the word "yet." For example, think or say "I don’t understand how to call a function yet.</li>
+          <li><b>Be willing to make mistakes, they are going to happen.</b></li>
+          <li>View <i>"Problems"</i> as <b>Opportunities.</b></li>
+        </ul>
+      </section>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
-          <li>Within the main body of the html document you need bullet points and these are as follows</li>
-          <li>List Item</li>
-          <li>ul-unordered list</li>
-          <li>ol-ordered lists</li>
-          <li>There are also header tags that are needed in the body of an html document</li>
-          <li>Headers are numbers 1-6 with h going before the number</li>
+          <li>Commonly used elements to add content to pages: Text, Image, Header, List Elements</li>
+          <li>In addition to elements that can be seen on a page, elements are also used to divide the content on the page and to describe the content to browsers. Common elemet types that are used to divide and describe are: Meta-related, Content division, Semantic Elements</li>
+          <li>Each HTML element performs a unique role. However, two elements are especially important to understanding how the structure works: the head and body elements</li>
+            <dd>- The <i><b>head</i></b> element contains information, or metadata, that helps the browser to render the page correctly. Elements included within the <i>head</i> are not visible when a user looks at a webpage</dd>
+            <dd>- The <i><b>body</i></b> element contains the content that is shown to the user. All the elements that we want the user to see and interact with must be placed inside this element.</dd>
+          <li>List Items:</li>
+            <dd>- ul-unordered list.</dd>
+            <dd>- ol-Ordered lists.</dd>
+          <li>There are also header tags that are needed in the body of an html document.</li>
+          <li>Headers are numbers 1-6 with H going before the number.</li>
+          <li><b>Metadata</b>:
+            <dd>- Data about or webpage that the browser uses to effectively serve our webpage to users.</dd>
+            <dd>- Typically not seen by users, but i contains important information about accessibility, search engine, and performance.</dd>
+          <li>Inside the <i>head</i> element, we can use the following metadata tags:</li>
+            <dd>Style element defines the CSS styles associated with a website.</dd>
+            <dd>Base element defines the base URL for a webpage.</dd>
+            <dd>Link element connects an external resource to the HTML document.</dd>
+            <dd>Script element embeds client-side scripts in the HTML document.</dd>
+          </li>
         </ul>
       </section>
       <section class="card" id="css-section">
@@ -31,7 +53,10 @@
         <ul>
           <li>A Margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
-          
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet</li>
+          <li>When a developer wants to style an element directly in the HTML file, they use <b>inline CSS</b>. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li>Inline CSS and internal style sheets are totally acceptable methods under certain conditions, but the most common way to style a webpage is by using an external CSS style sheet.</li>
+          <li>a selector <i><b>div</b></i> defines the element or attributes to which the rules, or declarations, will apply</li>
         </ul>
       </section>
 
@@ -39,7 +64,12 @@
         <h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git flow:</li>
+          <dd>- git add -A</dd>
+          <dd>- git commit -m "be sure to add comments on updates".</dd>
+          <dd>- git pull origin main.</dd>
+          <dd>- git push origin (INSERT BRANCH NAME).</dd>
       
         </ul>
 
@@ -49,7 +79,10 @@
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>"console.log" is used to test the interactivity of your website. This is done in the console of a page after right clicking 'inspect'</li>
+          <li>Browser Application Interface (API)</li>
         </ul>
 
       </section>
@@ -60,5 +93,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
